@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 app = Flask(__name__)
-app.config.from_pyfile('config.cfg') # Initialize app's settings from config.cfg
+app.config.from_pyfile('config.cfg')
 
 
 def connect_db():
